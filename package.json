@@ -1,0 +1,33 @@
+{
+  "name": "ltsn",
+  "version": "1.0.0",
+  "description": "CommandLine Tool for Node LTS",
+  "keywords": [
+    "LTS",
+    "Node"
+  ],
+  "homepage": "https://github.com/sijianian/ltsn#readme",
+  "bugs": {
+    "url": "https://github.com/sijianian/ltsn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sijianian/ltsn.git"
+  },
+  "license": "MIT",
+  "author": "moke",
+  "main": "index.js",
+  "bin": {
+    "ltsn": "./bin/ltsn.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cli-color": "^2.0.0",
+    "cli-table": "^0.3.1",
+    "compare-versions": "^3.5.1",
+    "terminal-link": "^2.0.0"
+  }
+}
